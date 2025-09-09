@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refund Policy - InnovateTech</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        
+        nav a:hover {
+            opacity: 0.8;
+        }
+        
+        /* Main Content */
+        main {
+            margin-top: 80px;
+            background: white;
+            border-radius: 10px;
+            margin-bottom: 50px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .page-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .page-header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        .page-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 60px;
+        }
+        
+        .content h2 {
+            color: #667eea;
+            font-size: 1.8rem;
+            margin: 30px 0 15px 0;
+            border-bottom: 2px solid #ff6b6b;
+            padding-bottom: 10px;
+        }
+        
+        .content h3 {
+            color: #333;
+            font-size: 1.3rem;
+            margin: 25px 0 10px 0;
+        }
+        
+        .content p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+        
+        .content ul, .content ol {
+            margin: 15px 0 15px 30px;
+        }
+        
+        .content li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background: #f0f8ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .warning {
+            background: #fff8e1;
+            border-left: 4px solid #ff9800;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .refund-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+        }
+        
+        .refund-table th,
+        .refund-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .refund-table th {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+        }
+        
+        .refund-table tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 30px;
+            transition: transform 0.3s;
+        }
+        
+        .back-button:hover {
+            transform: translateY(-2px);
+        }
+        
+        .contact-box {
+            background: #e3f2fd;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .contact-box h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .page-header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .refund-table {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">InnovateTech</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="refund.html">Refunds</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="page-header">
+            <h1>Refund Policy</h1>
+            <p>Transparent and fair refund terms for our customers</p>
+        </div>
+
+        <div class="content">
+            <div class="highlight">
+                <strong>Last Updated:</strong> January 2024<br>
+                <strong>Effective Date:</strong> January 2024
+            </div>
+
+            <h2>1. Overview</h2>
+            <p>At InnovateTech, we stand behind the quality of our products and services. This Refund Policy outlines the terms and conditions under which refunds may be requested and processed. We aim to provide a fair and transparent refund process for all our customers.</p>
+
+            <div class="warning">
+                <strong>Important:</strong> Please read this policy carefully before making a purchase. By using our services, you agree to the terms outlined in this refund policy.
+            </div>
+
+            <h2>2. Refund Eligibility</h2>
+            <p>Refunds may be requested under the following circumstances:</p>
+            <ul>
+                <li><strong>Service Defects:</strong> If our service fails to perform as described or advertised</li>
+                <li><strong>Unauthorized Charges:</strong> If you were charged without proper authorization</li>
+                <li><strong>Duplicate Payments:</strong> If you were accidentally charged multiple times for the same service</li>
+                <li><strong>Cancellation Within Grace Period:</strong> If you cancel within our specified grace period</li>
+                <li><strong>Technical Issues:</strong> If technical problems prevent you from accessing our services</li>
+            </ul>
+
+            <h2>3. Refund Timeframes</h2>
+            <table class="refund-table">
+                <thead>
+                    <tr>
+                        <th>Service Type</th>
+                        <th>Refund Period</th>
+                        <th>Refund Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monthly Subscriptions</td>
+                        <td>7 days from purchase</td>
+                        <td>100% refund</td>
+                    </tr>
+                    <tr>
+                        <td>Annual Subscriptions</td>
+                        <td>14 days from purchase</td>
+                        <td>100% refund</td>
+                    </tr>
+                    <tr>
+                        <td>One-time Services</td>
+                        <td>30 days from delivery</td>
+                        <td>100% refund (if unused)</td>
+                    </tr>
+                    <tr>
+                        <td>Custom Solutions</td>
+                        <td>As per contract terms</td>
+                        <td>Variable based on completion</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>4. How to Request a Refund</h2>
+            <p>To request a refund, please follow these steps:</p>
+            <ol>
+                <li><strong>Contact Us:</strong> Email our support team at refunds@innovatetech.com</li>
+                <li><strong>Provide Details:</strong> Include your order number, purchase date, and reason for refund</li>
+                <li><strong>Submit Documentation:</strong> Provide any relevant screenshots or documentation</li>
+                <li><strong>Await Review:</strong> Our team will review your request within 2-3 business days</li>
+                <li><strong>Receive Confirmation:</strong> You'll receive an email confirmation of our decision</li>
+            </ol>
+
+            <h3>Required Information</h3>
+            <p>When requesting a refund, please provide:</p>
+            <ul>
+                <li>Full name and email address associated with the account</li>
+                <li>Order number or transaction ID</li>
+                <li>Date of purchase</li>
+                <li>Detailed reason for the refund request</li>
+                <li>Supporting documentation (if applicable)</li>
+            </ul>
+
+            <h2>5. Processing Times</h2>
+            <p>Once your refund is approved, processing times vary by payment method:</p>
+            <ul>
+                <li><strong>Credit/Debit Cards:</strong> 5-10 business days</li>
+                <li><strong>PayPal:</strong> 3-5 business days</li>
+                <li><strong>Bank Transfers:</strong> 7-14 business days</li>
+                <li><strong>Digital Wallets:</strong> 1-3 business days</li>
+            </ul>
+
+            <div class="highlight">
+                <strong>Note:</strong> Processing times may vary depending on your financial institution. InnovateTech processes approved refunds within 24-48 hours, but the actual credit to your account depends on your payment provider.
+            </div>
+
+            <h2>6. Non-Refundable Items</h2>
+            <p>The following items and services are generally non-refundable:</p>
+            <ul>
+                <li>Services that have been fully delivered and utilized</li>
+                <li>Custom development work that has been completed to specifications</li>
+                <li>Third-party licenses or software purchased on your behalf</li>
+                <li>Services used beyond the refund eligibility period</li>
+                <li>Refund requests made after 60 days from purchase date</li>
+            </ul>
+
+            <h2>7. Partial Refunds</h2>
+            <p>In certain cases, we may offer partial refunds:</p>
+            <ul>
+                <li><strong>Partially Used Services:</strong> Prorated refund based on unused portion</li>
+                <li><strong>Damaged or Defective Services:</strong> Refund amount based on impact assessment</li>
+                <li><strong>Cancellation After Grace Period:</strong> Refund minus processing fees</li>
+                <li><strong>Subscription Downgrades:</strong> Credit for the difference in service levels</li>
+            </ul>
+
+            <h2>8. Dispute Resolution</h2>
+            <p>If you disagree with our refund decision:</p>
+            <ol>
+                <li><strong>Appeal Process:</strong> You may appeal within 30 days of our initial decision</li>
+                <li><strong>Additional Review:</strong> A senior team member will review your case</li>
+                <li><strong>Final Decision:</strong> We will provide a final written decision within 5 business days</li>
+                <li><strong>External Mediation:</strong> If still unsatisfied, you may seek external mediation</li>
+            </ol>
+
+            <h2>9. Chargebacks and Disputes</h2>
+            <div class="warning">
+                <strong>Important:</strong> Please contact us directly before initiating a chargeback with your bank or credit card company. Chargebacks may result in account suspension and additional fees. We're committed to resolving issues fairly and quickly through direct communication.
+            </div>
+
+            <h2>10. Changes to This Policy</h2>
+            <p>We reserve the right to modify this Refund Policy at any time. Changes will be effective immediately upon posting on our website. We will notify existing customers of any material changes via email. Your continued use of our services after any changes indicates acceptance of the updated policy.</p>
+
+            <div class="contact-box">
+                <h3>Need Help with a Refund?</h3>
+                <p><strong>Email:</strong> refunds@innovatetech.com</p>
+                <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                <p><strong>Hours:</strong> Monday-Friday, 9 AM - 6 PM PST</p>
+                <p style="margin-top: 15px; font-size: 14px; color: #666;">
+                    Our customer service team is here to help resolve any issues quickly and fairly.
+                </p>
+            </div>
+
+            <a href="index.html" class="back-button">← Back to Home</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 InnovateTech. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
