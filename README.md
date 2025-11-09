@@ -1,14 +1,14 @@
-# InnovateTech - Startup Website
+# Startup Website
 
 A modern, responsive startup website showcasing revolutionary technology solutions.
 
 ## 🚀 Live Demo
 
-Visit our website: [InnovateTech Startup Website](https://prabuskp.github.io/Startup-website/)
+Visit our website: [Startup Website](https://prabuskp.github.io/Startup-website/)
 
 ## 📋 Overview
 
-InnovateTech is a fictional technology startup website featuring:
+ It's fictional technology startup website featuring:
 - Modern, responsive design
 - Professional startup branding
 - Complete legal pages (Privacy Policy & Refund Policy)
@@ -157,9 +157,9 @@ Potential improvements for the website:
 ## 📧 Contact
 
 For questions about this project:
-- **Email**: hello@innovatetech.com
-- **Phone**: +1 (555) 123-4567
-- **Location**: San Francisco, CA
+- **Email**: sandra.susmitha@gmail.com
+- **Phone**: +917032820026
+- **Location**: Bangalore
 
 ## 📄 License
 
@@ -167,6 +167,3 @@ This project is created for demonstration purposes. Feel free to use it as a tem
 
 ---
 
-**Built with ❤️ by InnovateTech Team**
-
-*Last Updated: January 2024*
